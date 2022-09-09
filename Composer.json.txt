@@ -1,0 +1,22 @@
+{
+    "name": "inovotech/g_minds_theme",
+    "description": "Helps to create a custom them for growingminds magento website",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": ">=7.4",
+        "magento/framework": "*",
+        "magento/theme-frontend-blank": "*"
+    },
+    "type": "magento2-theme",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
